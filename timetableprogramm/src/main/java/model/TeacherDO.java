@@ -8,7 +8,7 @@ import java.util.List;
 public class TeacherDO extends PersonDO{
 
     private List<SubjectDO> subjectList;
-
+    private int workHoursPerWeek;
 
 
 }

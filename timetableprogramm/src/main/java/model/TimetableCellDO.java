@@ -13,7 +13,6 @@ public class TimetableCellDO {
     private int size;
 
     public TimetableCellDO(TeacherDO teacher, SchoolClassDO schoolClass, TimeCoordinateDO timeCoordinate, int size){
-
         if (size <= 0){
             throw new ConstructionException();
         }
@@ -22,7 +21,6 @@ public class TimetableCellDO {
         this.schoolClass = schoolClass;
         this.timeCoordinate = timeCoordinate;
         this.size = size;
-
     }
 
     public TeacherDO getTeacher() {
